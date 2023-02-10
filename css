@@ -1,0 +1,141 @@
+*m {
+    margin: auto;
+    padding: 0;
+    background: fixed;
+    scroll-behavior: smooth;
+    transition: all 0.4s ease;
+}
+
+body {
+    height: 180;
+    background-size: cover;
+    justify-content: center;
+    background: linear-gradient(-45deg, #65034e, #220e71, #4dac0d, #d35607);
+    background-size: 400% 400%;
+    animation: gradient 7s ease infinite;
+    height: 100%;
+}
+
+.chaiimg {
+    display: block;
+    text-align: center;
+    border-radius: 25px;
+}
+
+img {
+    border-radius: 25%;
+}
+
+.user {
+    margin: auto;
+    padding: 0%;
+}
+
+main .user img {
+    height: 8rem;
+    width: 8rem;
+    cursor: pointer;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin: 2%;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(169, 169, 169);
+}
+
+big {
+    display: flex;
+    justify-content: center;
+    margin-left: 75%;
+    color: yellow;
+}
+
+h1:hover {
+    color: maroon;
+    text-decoration: solid;
+    cursor: pointer;
+}
+
+h3:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: solid;
+    cursor: pointer;
+    margin: auto;
+}
+
+p {
+    color: antiquewhite;
+    text-align: center;
+    text-size-adjust: 200;
+}
+
+section {
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    background-color: rgb(7, 97, 127);
+    border-radius: 100px;
+    background-color: transparent;
+    margin: 4%;
+    padding: 18px 40px;
+    position: relative;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: all 0.7s;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+button {
+    background-color: rgb(58, 23, 102);
+    box-shadow: 4px 4px rgb(214, 17, 17);
+}
+
+button:hover {
+    color: black;
+    background-color: rgb(139, 186, 45);
+}
+
+footer {
+    border-top: solid 1px;
+    align-items: center;
+    text-align: center;
+    background: rgba(150, 150, 150, 0.5);
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
